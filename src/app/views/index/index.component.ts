@@ -10,6 +10,6 @@ export class IndexComponent implements OnInit {
   ngOnInit(): void {}
 
   openEmail(){
-    window.location.href = "mailto:general@royalgreentrading.com?subject=Enquiryt&body=Your message";
+    window.location.href = "mailto:general@royalgreentrading.com?subject=Enquiry&body=Your message";
   }
 }

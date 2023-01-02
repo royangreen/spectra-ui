@@ -16,6 +16,6 @@ export class IndexNavbarComponent implements OnInit {
   }
 
   openEmail(){
-    window.location.href = "mailto:hr@royalgreentrading.com?subject=Enquiryt&body=Your message";
+    window.location.href = "mailto:hr@royalgreentrading.com?subject=Enquiry&body=Your message";
   }
 }
