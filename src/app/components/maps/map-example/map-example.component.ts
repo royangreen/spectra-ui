@@ -10,6 +10,7 @@ export class MapExampleComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    debugger
     let map = document.getElementById("map-canvas");
     let lat = map.getAttribute("data-lat");
     let lng = map.getAttribute("data-lng");
